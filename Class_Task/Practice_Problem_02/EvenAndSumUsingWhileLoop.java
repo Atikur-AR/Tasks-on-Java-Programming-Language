@@ -1,13 +1,14 @@
-package Class_Task;
+package Class_Task.Practice_Problem_02;
 
-public class EvenAndSumUsingForLoop {
+public class EvenAndSumUsingWhileLoop {
     static void main() {
-        int sum = 0;
-        for (int i = 2; i <= 20; i++) {
+        int i = 2, sum = 0;
+        while (i <= 20) {
             if (i % 2 == 0) {
                 System.out.print(i + " ");
                 sum += i;
             }
+            i++;
         }
         System.out.println("\nSum is : " + sum);
     }

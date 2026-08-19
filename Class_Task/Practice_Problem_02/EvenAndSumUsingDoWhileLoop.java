@@ -1,4 +1,4 @@
-package Class_Task;
+package Class_Task.Practice_Problem_02;
 
 public class EvenAndSumUsingDoWhileLoop {
     static void main() {

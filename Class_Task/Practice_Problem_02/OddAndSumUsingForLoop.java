@@ -1,16 +1,14 @@
-package Class_Task;
+package Class_Task.Practice_Problem_02;
 
-public class OddAndSumUsingDoWhileLoop {
+public class OddAndSumUsingForLoop {
     static void main() {
-        int i = 1, sum = 0;
-        do {
+        int sum = 0;
+        for (int i = 1; i <= 20; i++) {
             if (i % 2 != 0) {
                 System.out.print(i + " ");
                 sum += i;
-
             }
-            i++;
-        } while (i <= 20);
+        }
         System.out.println("\nSum is : " + sum);
     }
 }

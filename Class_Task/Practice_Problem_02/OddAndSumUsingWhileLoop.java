@@ -1,10 +1,10 @@
-package Class_Task;
+package Class_Task.Practice_Problem_02;
 
-public class EvenAndSumUsingWhileLoop {
+public class OddAndSumUsingWhileLoop {
     static void main() {
-        int i = 2, sum = 0;
+        int i = 1, sum = 0;
         while (i <= 20) {
-            if (i % 2 == 0) {
+            if (i % 2 != 0) {
                 System.out.print(i + " ");
                 sum += i;
             }
