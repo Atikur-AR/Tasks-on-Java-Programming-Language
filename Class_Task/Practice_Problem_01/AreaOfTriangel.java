@@ -13,5 +13,6 @@ public class AreaOfTriangel {
         double area = 0.5 * base * height;
         System.out.println("The area is : " + area);
 
+        sc.close();
     }
 }

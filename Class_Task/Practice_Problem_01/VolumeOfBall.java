@@ -11,5 +11,7 @@ public class VolumeOfBall {
 
         double area = 4 / 3 * pi * radius * radius * radius;
         System.out.println("The volume is : " + area);
+
+        sc.close();
     }
 }

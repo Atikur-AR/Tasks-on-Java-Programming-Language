@@ -10,5 +10,7 @@ public class AreaOfEquilateralTriangle {
 
         double area = ((Math.pow(3, 0.5) / 4) * arm * arm);
         System.out.println("The area is : " + area);
+
+        sc.close();
     }
 }

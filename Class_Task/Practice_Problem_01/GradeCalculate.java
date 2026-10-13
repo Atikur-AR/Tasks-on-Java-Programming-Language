@@ -20,5 +20,7 @@ public class GradeCalculate {
             System.out.println("C+");
         else if (mark >= 0 && mark <= 30)
             System.out.println("F");
+
+        sc.close();
     }
 }

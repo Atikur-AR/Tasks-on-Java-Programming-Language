@@ -25,5 +25,7 @@ public class PrimeNumberOrNot {
             System.out.println("Prime");
         else
             System.out.println("Not Prime");
+
+        sc.close();
     }
 }

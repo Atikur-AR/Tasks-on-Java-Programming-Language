@@ -11,5 +11,7 @@ public class AreaOfCircle {
 
         double area = pi * radius * radius;
         System.out.println("The area is : " + area);
+
+        sc.close();
     }
 }

@@ -10,5 +10,7 @@ public class CelsiusToFahrenheit {
 
         double F = ((celsius * 9) / 5) + 32;
         System.out.println("The fehrenheit scale is : " + F);
+
+        sc.close();
     }
 }

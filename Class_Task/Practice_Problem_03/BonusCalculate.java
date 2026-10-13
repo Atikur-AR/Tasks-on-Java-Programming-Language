@@ -25,5 +25,7 @@ public class BonusCalculate {
             bonus = 5;
 
         System.out.println("Bonus : " + bonus + "%");
+
+        sc.close();
     }
 }

@@ -12,5 +12,7 @@ public class EvenOrOdd {
             System.out.print("Even number");
         else
             System.out.println("Odd number");
+
+        sc.close();
     }
 }

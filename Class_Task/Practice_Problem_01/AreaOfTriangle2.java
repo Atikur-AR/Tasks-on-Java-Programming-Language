@@ -18,5 +18,7 @@ public class AreaOfTriangle2 {
 
         double area = (Math.pow((s * (s - a) * (s - b) * (s - c)), 0.5));
         System.out.println("The area is : " + area);
+
+        sc.close();
     }
 }

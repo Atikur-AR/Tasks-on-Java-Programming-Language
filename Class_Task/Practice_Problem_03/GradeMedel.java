@@ -19,5 +19,7 @@ public class GradeMedel {
                 System.out.println("Semester completed, but grade is not enough for a medel.");
         } else
             System.out.println("You need to complete the semester first to be eligible for a medal.");
+
+        sc.close();
     }
 }

@@ -17,5 +17,7 @@ public class Fibonacci {
         for (int i = 0; i < n; i++) {
             System.out.print(m.fibo(i) + " ");
         }
+
+        sc.close();
     }
 }

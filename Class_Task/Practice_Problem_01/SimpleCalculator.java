@@ -22,5 +22,7 @@ public class SimpleCalculator {
             System.out.println(a * b);
         else
             System.out.println(a / b);
+
+        sc.close();
     }
 }
